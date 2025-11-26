@@ -68,7 +68,7 @@ function show_progress {
 ping_ip() {
     local ip=$(echo $1 | cut -d "," -f 1 2>&1)
     local result
-    result=$(ping -qc2 -W "$timeout" "$ip" | awk -F '/' 'END{ print (/^rtt/? $5:"FAIL") }')
+    result=$(ping -qc2 -W "$timeout" "$ip" | awk -F '/' 'END{ print (/^r/? $5:"FAIL") }')
     echo "$result ms, $1" >> output.txt
 }
 
