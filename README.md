@@ -2,7 +2,7 @@ Credits for original template code https://github.com/johnwmintz/pinglist
 
 # How to run
 ```
-curl -s https://raw.githubusercontent.com//xiliourt/host-ping-test/refs/heads/main/pinglist.sh  | bash -s
+curl -s https://raw.githubusercontent.com/xiliourt/host-ping-test/refs/heads/main/pinglist.sh  | bash -s
 ```
 
 ## Flags
